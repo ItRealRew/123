@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+.title-line {
+    top: 200px;
+    background-color: #3f334d;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+.content {
+    font-size: 11pt;
+    color: #d0cfd1;
+    background-color: #26252d;
+    margin: 10px;
+}
+
+/** Главное меню.*/
+
+ul {
+    font-size: 11pt;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding-top: 5px;
+}
+
+a {
+    padding-left: 10px;
+    padding-right: 12px;
+    display: block;
+    text-decoration: none;
+    color: #d0cfd1;
+}
+
+li {
+    float: left;
+}
+
+/** Контекстное меню.*/
+
+.context-menu {
+    display: none;
+}
+
+.item-context-menu {
+    font-size: 11pt;
+    color: #d0cfd1;
+}
+
+.splitter-context-menu {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 0;
+    border: none;
+    border-top: 1px solid rgb(208, 207, 209);
+}
+
+.context-menu-active {
+    display: block;
+}
+
+/** Описание пунктов контекстного меню. */
+
+.file-style-context-menu{
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    background-color: #3e3d4a;
+}
+
+.setings-style-context-menu{
+    margin-left: 84px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    background-color: #3e3d4a;
+}
+
+.active-item-main-menu{
+    background-color: #58486b;
+}
